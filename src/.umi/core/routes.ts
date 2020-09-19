@@ -5,14 +5,14 @@ import { plugin } from './plugin';
 export function getRoutes() {
   const routes = [
   {
-    "path": "/login",
-    "component": require('@/pages/common/login').default,
-    "exact": true
-  },
-  {
     "path": "/",
     "component": require('@/layouts/SecurityLayout').default,
     "routes": [
+      {
+        "path": "/login",
+        "component": require('@/pages/common/login').default,
+        "exact": true
+      },
       {
         "path": "/system",
         "component": require('@/layouts/BlankLayout').default,
