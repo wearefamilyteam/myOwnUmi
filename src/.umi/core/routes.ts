@@ -5,6 +5,11 @@ import { plugin } from './plugin';
 export function getRoutes() {
   const routes = [
   {
+    "path": "/login",
+    "component": require('@/pages/common/login').default,
+    "exact": true
+  },
+  {
     "path": "/",
     "component": require('@/layouts/SecurityLayout').default,
     "routes": [
@@ -13,23 +18,28 @@ export function getRoutes() {
         "component": require('@/layouts/BlankLayout').default,
         "routes": [
           {
-            "path": "/system",
-            "redirect": "/system/myTest",
-            "exact": true
+            "path": "/system/ordinary",
+            "routes": [
+              {
+                "path": "/system/ordinary/myTest",
+                "component": require('@/pages/ordinary/myTest').default,
+                "exact": true
+              }
+            ]
           },
           {
-            "path": "/system/myTest",
-            "component": require('@/pages/myTest').default,
-            "exact": true
+            "path": "/system/admin",
+            "routes": [
+              {
+                "path": "/system/admin/myTest2",
+                "component": require('@/pages/admin/myTest2').default,
+                "exact": true
+              }
+            ]
           }
         ]
       }
     ]
-  },
-  {
-    "path": "/login",
-    "component": require('@/pages/login').default,
-    "exact": true
   }
 ];
 
