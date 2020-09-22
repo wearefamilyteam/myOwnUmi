@@ -2,7 +2,7 @@ import { defineConfig } from 'umi';
 import routes from './router.config';
 import { resolve } from 'path';
 
-export default defineConfig({
+export default {
   history: {
     type: 'hash',
   },
@@ -22,4 +22,4 @@ export default defineConfig({
     services: resolve(__dirname, '../src/services'),
     pages: resolve(__dirname, '../src/pages'),
   },
-});
+};
