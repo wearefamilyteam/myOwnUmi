@@ -9,7 +9,7 @@ import { renderClient } from '/Users/wangqing/Desktop/myOwnUmi/node_modules/_@um
 import { getRoutes } from './core/routes';
 
 
-
+require('../global.less');
 
 const getClientRender = (args: { hot?: boolean; routes?: any[] } = {}) => plugin.applyPlugins({
   key: 'render',
