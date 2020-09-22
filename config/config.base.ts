@@ -11,7 +11,7 @@ export default {
     type: 'none',
   },
   theme: {
-    '@primary-color': 'red',
+    // '@primary-color': 'red',
   },
   title: '王清最帅',
   links: [{ rel: 'icon', href: './wangqing.jpeg' }],
