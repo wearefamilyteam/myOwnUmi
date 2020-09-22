@@ -1,12 +1,12 @@
 export default [
   {
+    path: '/login',
+    component: '@/pages/common/login',
+  },
+  {
     path: '/',
     component: '@/layouts/SecurityLayout',
     routes: [
-      {
-        path: '/login',
-        component: '@/pages/common/login',
-      },
       {
         path: '/system',
         component: '@/layouts/BlankLayout',
