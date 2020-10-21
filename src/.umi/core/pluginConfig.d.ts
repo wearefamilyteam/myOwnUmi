@@ -65,7 +65,7 @@ export interface IConfigFromPlugins {
     mode?: "emit" | "verify";
   };
   cssnano?: {};
-  copy?: any[];
+  copy?: string[];
   define?: {};
   devScripts?: {};
   /**
@@ -147,13 +147,9 @@ export interface IConfigFromPlugins {
   runtimePublicPath?: boolean;
   ssr?: {
     /**
-     * force execing Page getInitialProps functions
+     * remove window.g_initialProps in html, to force execing Page getInitialProps  functions
      */
     forceInitial?: boolean;
-    /**
-     * remove window.g_initialProps in html
-     */
-    removeWindowInitialProps?: boolean;
     /**
      * disable serve-side render in umi dev mode.
      */
