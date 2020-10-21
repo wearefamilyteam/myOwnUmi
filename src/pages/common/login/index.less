@@ -33,6 +33,14 @@
       .contentRightTab {
         width: 80%;
         height: 300px;
+        .codeFormItem {
+          display: flex;
+          :global {
+            .ant-form-item {
+              margin-bottom: 0;
+            }
+          }
+        }
         .submit {
           width: 100%;
         }
