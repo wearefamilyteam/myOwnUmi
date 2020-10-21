@@ -1,5 +1,7 @@
 // @ts-nocheck
-import { ApplyPluginsType } from '/Users/wangqing/Desktop/myOwnUmi/node_modules/_@umijs_runtime@3.2.20@@umijs/runtime';
+import React from 'react';
+import { ApplyPluginsType } from '/Users/mdzz/code/myOwnUmi/node_modules/_@umijs_runtime@3.2.24@@umijs/runtime';
+import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
 export function getRoutes() {

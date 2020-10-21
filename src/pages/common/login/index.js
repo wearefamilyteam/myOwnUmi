@@ -55,16 +55,21 @@ const Login = () => {
             <TabPane tab="忘记密码" key="forgetPassword">
               <Form name="forget_password" onFinish={onForgetPassword}>
                 <div className={styles.title}>忘记密码</div>
-                <Form.Item
-                  name="verificationCode"
-                  rules={[{ required: true, message: '请输入您的验证码' }]}
-                >
-                  <Input
-                    prefix={<UserOutlined />}
-                    placeholder="验证码"
-                    style={{ width: '200px', marginRight: '10px' }}
-                  />
-                  <Button>发送验证码</Button>
+                <Form.Item>
+                  <Form.Item
+                    name="verificationCode"
+                    rules={[{ required: true, message: '请输入您的验证码' }]}
+                  >
+                    <Input
+                      prefix={<UserOutlined />}
+                      placeholder="验证码"
+                      style={{ width: '200px', marginRight: '10px' }}
+                    />
+                  </Form.Item>
+
+                  <Form.Item>
+                    <Button>发送验证码</Button>
+                  </Form.Item>
                 </Form.Item>
                 <Form.Item
                   name="password"
