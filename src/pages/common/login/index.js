@@ -46,7 +46,7 @@ const Login = () => {
                     htmlType="submit"
                     className={styles.submit}
                   >
-                    登录
+                    登录1
                   </Button>
                 </Form.Item>
               </Form>
