@@ -40,7 +40,7 @@ export default [
             path: '/system/admin',
             routes: [
               {
-                path: '/system/admin/myTest2123ss3',
+                path: '/system/admin/myTest2123ss5',
                 component: '@/pages/admin/myTest2',
               },
             ],
