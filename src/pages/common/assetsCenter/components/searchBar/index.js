@@ -7,7 +7,9 @@ const { Search } = Input;
 
 const SearchBar = () => {
   const handleChange = () => {};
-  const onSearch = () => {};
+  const onSearch = () => {
+    console.log(1);
+  };
 
   const selectData = [
     { label: '自动循环', value: 1 },
