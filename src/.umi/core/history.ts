@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createHashHistory } from '/Users/wangqing/Desktop/myOwnUmi/node_modules/_@umijs_runtime@3.2.20@@umijs/runtime';
+import { createHashHistory } from '/Users/wangqing/Desktop/myOwnUmi/node_modules/_@umijs_runtime@3.2.24@@umijs/runtime';
 
 let options = {
   "basename": "/"
@@ -16,11 +16,6 @@ export const createHistory = (hotReload = false) => {
   }
 
   return history;
-};
-
-// 通常仅微前端场景需要调用这个 API
-export const setCreateHistoryOptions = (newOpts: any = {}) => {
-  options = { ...options, ...newOpts };
 };
 
 export { history };

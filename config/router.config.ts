@@ -11,6 +11,16 @@ export default [
         path: '/system',
         component: '@/layouts/BlankLayout',
         routes: [
+          // 公共的在这里
+          {
+            path: '/system/common',
+            routes: [
+              {
+                path: '/system/common/DashBoard',
+                component: '@/pages/common/DashBoard',
+              },
+            ],
+          },
           // 普通用户在这里
           {
             path: '/system/ordinary',
