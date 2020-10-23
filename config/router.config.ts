@@ -45,6 +45,15 @@ export default [
               },
             ],
           },
+          {
+            path: '/system/admin1',
+            routes: [
+              {
+                path: '/system/admin/myTest22',
+                component: '@/pages/admin/myTest22',
+              },
+            ],
+          },
         ],
       },
     ],
