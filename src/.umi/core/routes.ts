@@ -20,6 +20,21 @@ export function getRoutes() {
         "component": require('@/layouts/BlankLayout').default,
         "routes": [
           {
+            "path": "/system/common",
+            "routes": [
+              {
+                "path": "/system/common/DashBoard",
+                "component": require('@/pages/common/DashBoard').default,
+                "exact": true
+              },
+              {
+                "path": "/system/common/assetsCenter",
+                "component": require('@/pages/common/assetsCenter').default,
+                "exact": true
+              }
+            ]
+          },
+          {
             "path": "/system/ordinary",
             "routes": [
               {
@@ -35,16 +50,6 @@ export function getRoutes() {
               {
                 "path": "/system/admin/myTest2",
                 "component": require('@/pages/admin/myTest2').default,
-                "exact": true
-              }
-            ]
-          },
-          {
-            "path": "/system/common",
-            "routes": [
-              {
-                "path": "/system/common/assetsCenter",
-                "component": require('@/pages/common/assetsCenter').default,
                 "exact": true
               }
             ]

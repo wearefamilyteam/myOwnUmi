@@ -1,0 +1,32 @@
+.activeRisk {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  .activeRiskLeft {
+    width: calc(50% - 20px);
+    .activeRiskLeftTop {
+      display: flex;
+      margin-bottom: 30px;
+      .activeRiskLeftTopTitle {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      .activeRiskLeftTopTime {
+        color: #25867d;
+      }
+    }
+  }
+  .activeRiskRight {
+    width: calc(50% - 20px);
+    .activeRiskRightTop {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .timelineItem {
+      display: grid;
+      grid-template-columns: 3fr 1fr 1fr;
+    }
+  }
+}

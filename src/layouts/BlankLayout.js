@@ -59,7 +59,7 @@ const BlankLayout = props => {
   return (
     <div className={styles.BlankLayout}>
       <Layout>
-        <Header className="header"></Header>
+        <Header className={styles.header}></Header>
         <Content>
           <Layout>
             <Sider className={styles.sider}>

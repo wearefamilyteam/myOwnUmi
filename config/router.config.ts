@@ -11,6 +11,20 @@ export default [
         path: '/system',
         component: '@/layouts/BlankLayout',
         routes: [
+          // 公共的在这里
+          {
+            path: '/system/common',
+            routes: [
+              {
+                path: '/system/common/DashBoard',
+                component: '@/pages/common/DashBoard',
+              },
+              {
+                path: '/system/common/assetsCenter',
+                component: '@/pages/common/assetsCenter',
+              },
+            ],
+          },
           // 普通用户在这里
           {
             path: '/system/ordinary',
@@ -28,15 +42,6 @@ export default [
               {
                 path: '/system/admin/myTest2',
                 component: '@/pages/admin/myTest2',
-              },
-            ],
-          },
-          {
-            path: '/system/common',
-            routes: [
-              {
-                path: '/system/common/assetsCenter',
-                component: '@/pages/common/assetsCenter',
               },
             ],
           },
