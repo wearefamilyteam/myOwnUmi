@@ -22,7 +22,7 @@ export default {
           },
         });
       }
-      history.push('/system/ordinary/myTest');
+      // history.push('/system/ordinary/myTest');
     },
   },
 

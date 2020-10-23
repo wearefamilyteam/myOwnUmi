@@ -31,6 +31,15 @@ export default [
               },
             ],
           },
+          {
+            path: '/system/common',
+            routes: [
+              {
+                path: '/system/common/assetsCenter',
+                component: '@/pages/common/assetsCenter',
+              },
+            ],
+          },
         ],
       },
     ],
