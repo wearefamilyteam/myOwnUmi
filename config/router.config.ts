@@ -11,15 +11,6 @@ export default [
         path: '/system',
         component: '@/layouts/BlankLayout',
         routes: [
-          {
-            path: '/system/admin1',
-            routes: [
-              {
-                path: '/system/admin/myTest21',
-                component: '@/pages/admin/myTest21',
-              },
-            ],
-          },
           // 公共的在这里
           {
             path: '/system/common',
@@ -51,15 +42,6 @@ export default [
               {
                 path: '/system/admin/myTest2',
                 component: '@/pages/admin/myTest2',
-              },
-            ],
-          },
-          {
-            path: '/system/admin1',
-            routes: [
-              {
-                path: '/system/admin/myTest22',
-                component: '@/pages/admin/myTest22',
               },
             ],
           },
