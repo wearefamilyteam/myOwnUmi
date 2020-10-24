@@ -27,6 +27,14 @@ export default [
                 path: '/system/common/pluginlist',
                 component: '@/pages/common/pluginlist',
               },
+              {
+                path: '/system/common/pluginDetail',
+                component: '@/pages/common/pluginDetail',
+              },
+              {
+                path: '/system/common/pluginExamine',
+                component: '@/pages/common/pluginExamine',
+              },
             ],
           },
           // 普通用户在这里

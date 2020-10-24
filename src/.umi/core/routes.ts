@@ -36,6 +36,16 @@ export function getRoutes() {
                 "path": "/system/common/pluginlist",
                 "component": require('@/pages/common/pluginlist').default,
                 "exact": true
+              },
+              {
+                "path": "/system/common/pluginDetail",
+                "component": require('@/pages/common/pluginDetail').default,
+                "exact": true
+              },
+              {
+                "path": "/system/common/pluginExamine",
+                "component": require('@/pages/common/pluginExamine').default,
+                "exact": true
               }
             ]
           },
