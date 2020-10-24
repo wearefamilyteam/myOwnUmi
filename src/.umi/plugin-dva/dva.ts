@@ -3,9 +3,9 @@ import { Component } from 'react';
 import { ApplyPluginsType } from 'umi';
 import dva from 'dva';
 // @ts-ignore
-import createLoading from '/Users/mdzz/code/myOwnUmi/node_modules/_dva-loading@3.0.21@dva-loading/dist/index.esm.js';
+import createLoading from '/Users/wangqing/Desktop/myOwnUmi/node_modules/_dva-loading@3.0.21@dva-loading/dist/index.esm.js';
 import { plugin, history } from '../core/umiExports';
-import ModelUser0 from '/Users/mdzz/code/myOwnUmi/src/models/user.js';
+import ModelUser0 from '/Users/wangqing/Desktop/myOwnUmi/src/models/user.js';
 
 let app:any = null;
 

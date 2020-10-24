@@ -23,6 +23,10 @@ export default [
                 path: '/system/common/assetsCenter',
                 component: '@/pages/common/assetsCenter',
               },
+              {
+                path: '/system/common/pluginlist',
+                component: '@/pages/common/pluginlist',
+              },
             ],
           },
           // 普通用户在这里

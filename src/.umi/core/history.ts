@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createHashHistory } from '/Users/mdzz/code/myOwnUmi/node_modules/_@umijs_runtime@3.2.24@@umijs/runtime';
+import { createHashHistory } from '/Users/wangqing/Desktop/myOwnUmi/node_modules/_@umijs_runtime@3.2.24@@umijs/runtime';
 
 let options = {
   "basename": "/"
