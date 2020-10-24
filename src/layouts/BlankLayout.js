@@ -57,7 +57,7 @@ const mapRouter = routes => {
 };
 const BlankLayout = props => {
   return (
-    <div className={styles.BlankLayout}>
+    <div className={styles.blankLayout}>
       <Layout>
         <Header className={styles.header}></Header>
         <Content>

@@ -24,6 +24,18 @@ export default [
                 component: '@/pages/common/assetsCenter',
               },
               {
+                path: '/system/common/pluginlist',
+                component: '@/pages/common/pluginlist',
+              },
+              {
+                path: '/system/common/pluginDetail',
+                component: '@/pages/common/pluginDetail',
+              },
+              {
+                path: '/system/common/pluginExamine',
+                component: '@/pages/common/pluginExamine',
+              },
+              {
                 path: '/system/common/showDetail',
                 component: '@/pages/common/showDetail',
               },
