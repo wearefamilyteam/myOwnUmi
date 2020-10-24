@@ -35,6 +35,14 @@ export default [
                 path: '/system/common/pluginExamine',
                 component: '@/pages/common/pluginExamine',
               },
+              {
+                path: '/system/common/showDetail',
+                component: '@/pages/common/showDetail',
+              },
+              {
+                path: '/system/common/addPlugin',
+                component: '@/pages/common/addPlugin',
+              },
             ],
           },
           // 普通用户在这里

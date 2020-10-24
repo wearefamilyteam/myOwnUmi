@@ -1,46 +1,38 @@
 import React from 'react';
+import './index.less';
 import { Table } from 'antd';
 
-const TableContent = () => {
+const RelatedAssets = () => {
   const dataSource = [];
 
   const columns = [
     {
-      title: '网站信息',
+      title: '资产名称/IP',
       dataIndex: 'info',
       key: 'name',
     },
     {
-      title: 'IP地址',
+      title: '资产类型',
       dataIndex: 'ip',
       key: 'age',
     },
     {
-      title: '地域',
+      title: '服务器漏洞',
       dataIndex: 'address',
       key: 'address',
     },
     {
-      title: '更新时间',
+      title: '告警',
       dataIndex: 'time',
       key: 'name',
     },
-    {
-      title: '所属PVC',
-      dataIndex: 'pvc',
-      key: 'age',
-    },
-    {
-      title: '容器组数量',
-      dataIndex: 'conut',
-      key: 'address',
-    },
   ];
   return (
-    <div>
+    <div className="related-assets">
+      <div className="related-text">相关资产</div>
       <Table dataSource={dataSource} columns={columns} />
     </div>
   );
 };
 
-export default TableContent;
+export default RelatedAssets;
