@@ -31,6 +31,16 @@ export function getRoutes() {
                 "path": "/system/common/assetsCenter",
                 "component": require('@/pages/common/assetsCenter').default,
                 "exact": true
+              },
+              {
+                "path": "/system/common/showDetail",
+                "component": require('@/pages/common/showDetail').default,
+                "exact": true
+              },
+              {
+                "path": "/system/common/addPlugin",
+                "component": require('@/pages/common/addPlugin').default,
+                "exact": true
               }
             ]
           },
